@@ -1,0 +1,37 @@
+// LarrysAnyTextFileIndexer.idl : IDL source for LarrysAnyTextFileIndexer
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (LarrysAnyTextFileIndexer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(751B637E-415D-491B-88DF-86619E4A445F),
+	dual,
+	nonextensible,
+	helpstring("ILarrysAnyTextFileIndexerObj Interface"),
+	pointer_default(unique)
+]
+interface ILarrysAnyTextFileIndexerObj : IDispatch{
+	[id(1), helpstring("method HandleFile")] HRESULT HandleFile(BSTR RawFullPath, IDispatch* EventFactory);
+};
+[
+	uuid(BB6F0B18-6566-4227-BB66-570ABAE8F946),
+	version(1.0),
+	helpstring("LarrysAnyTextFileIndexer 1.0 Type Library")
+]
+library LarrysAnyTextFileIndexerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(DC35EA48-208A-4776-ACF3-35B0D9CFCA42),
+		helpstring("LarrysAnyTextFileIndexerObj Class")
+	]
+	coclass LarrysAnyTextFileIndexerObj
+	{
+		[default] interface ILarrysAnyTextFileIndexerObj;
+	};
+};

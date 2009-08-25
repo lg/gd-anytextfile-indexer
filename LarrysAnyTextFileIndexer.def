@@ -1,0 +1,9 @@
+; LarrysAnyTextFileIndexer.def : Declares the module parameters.
+
+LIBRARY      "LarrysAnyTextFileIndexer.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

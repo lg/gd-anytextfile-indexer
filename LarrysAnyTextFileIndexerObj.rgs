@@ -1,0 +1,27 @@
+HKCR
+{
+	LarrysAnyTextFileIndexer.LarrysAnyTex.1 = s 'LarrysAnyTextFileIndexerObj Class'
+	{
+		CLSID = s '{DC35EA48-208A-4776-ACF3-35B0D9CFCA42}'
+	}
+	LarrysAnyTextFileIndexer.LarrysAnyTextF = s 'LarrysAnyTextFileIndexerObj Class'
+	{
+		CLSID = s '{DC35EA48-208A-4776-ACF3-35B0D9CFCA42}'
+		CurVer = s 'LarrysAnyTextFileIndexer.LarrysAnyTex.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DC35EA48-208A-4776-ACF3-35B0D9CFCA42} = s 'LarrysAnyTextFileIndexerObj Class'
+		{
+			ProgID = s 'LarrysAnyTextFileIndexer.LarrysAnyTex.1'
+			VersionIndependentProgID = s 'LarrysAnyTextFileIndexer.LarrysAnyTextF'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{BB6F0B18-6566-4227-BB66-570ABAE8F946}'
+		}
+	}
+}

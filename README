@@ -1,0 +1,34 @@
+Larry's Any Text File Indexer
+Larry Gadea, trivex@gmail.com
+http://www.github.com/larrygadea
+http://twitter.com/lg
+
+Licensed under BSD. See the included LICENSE file.
+
+This plugin will force Google Desktop Search to index any file type 
+as a text file. Useful for .VB, .CS, .BAS, .INC, etc. Plugin source 
+code is available from trivex.net.
+
+To install, follow these instructions:
+   1. Run the "LarrysAnyTextFileIndexer.exe" file in the zip.
+   2. Once Notepad opens up with the configuration file, add or 
+      remove any file extensions you want. 
+      
+      *** This is the only time you can modify the list (without 
+      reinstalling this plugin). ***
+
+   3. Save your file and close Notepad once you've finished making 
+      any changes.
+   4. Agree to the registration with Google Desktop Search.
+   5. You're done! Your system will now be indexing all the file
+      extensions you specified.
+
+To uninstall, follow these instructions:
+
+   1. Go to your Start menu and select "Control Panel".
+   2. Select "Add/Remove Programs"
+   3. Find "Larry's Any Text File Indexer" and click "Remove".
+   4. Thats it!
+
+If you have any comments/concerns/questions/suggestions, whatever,
+feel free to contact me at trivex@trivex.net.
